@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>To-Do App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>My To-Do List</h1>
+
+    <input id="taskInput" type="text" placeholder="Add a new task..." />
+    <button id="addTaskBtn">Add Task</button>
+    <ul id="taskList"></ul>
+  </div>
+
+  <!-- این قسمت جدید: نمایش پیام -->
+  <div id="loadingMessage" style="margin-top: 1rem; color: green; font-weight: bold;"></div>
+  
+  <!-- دکمه شبیه‌سازی بارگذاری -->
+  <button id="simulateLoadBtn" style="margin-top: 1rem;">شبیه‌سازی بارگذاری داده</button>
+
+  <div style="margin-top: 20px;">
+    <button id="filterAll">همه</button>
+    <button id="filterDone">انجام‌شده</button>
+    <button id="filterTodo">انجام‌نشده</button>
+  </div>
+
+  <button id="toggleDarkMode">🌓 حالت تاریک</button>
+
+<script type="module" src="js/main.js"></script>
+</body>
+</html>
