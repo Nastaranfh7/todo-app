@@ -6,6 +6,12 @@ This project demonstrates strong front-end fundamentals, including DOM manipulat
 
 ---
 
+
+## 🔗 Live Demo  
+👉 Try it here: [Todo App on GitHub Pages](https://nastaranfh7.github.io/todo-app/)
+
+---
+
 ## 🚀 Features
 
 - ✅ Add and remove tasks dynamically  
