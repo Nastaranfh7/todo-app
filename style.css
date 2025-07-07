@@ -175,3 +175,7 @@ button.delete-btn:hover {
 .dark-mode button.delete-btn:hover {
   background-color: #dc3545;
 }
+
+.dark-mode h1 {
+  color: #ffffff;
+}
